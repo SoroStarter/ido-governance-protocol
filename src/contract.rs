@@ -12,7 +12,7 @@ use crate::votes::{
 };
 
 use soroban_sdk::{contract, contractimpl, Address, Env, String};
-//CCVFRNPNVYVZMSSEYBN4QJZVEFXZORC6BVCS7VD5TBSECMWHT7XQGGUO
+
 pub trait SaleTrait {
     fn initialize(e: Env, admin: Address);
     fn set_governance_token(e: Env, token_addres: Address);
